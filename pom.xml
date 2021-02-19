@@ -9,7 +9,8 @@
 
   <name>demo</name>
   <url>http://maven.apache.org</url>
-<plugin>
+<plugins>
+  <plugin>
       <groupId>org.jacoco</groupId>
       <artifactId>jacoco-maven-plugin</artifactId>
       <version>0.8.4</version>
@@ -33,7 +34,7 @@
        </execution>
      </executions>
    </plugin> 
-
+ </plugins>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
